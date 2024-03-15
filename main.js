@@ -48,11 +48,6 @@ firstStage = function () {
     game.physics.arcade.enable(enemy);
     enemy.body.collideWorldBounds = true;
     enemy.body.immovable = true;
-
-    enemy01 = game.add.sprite(600, 300, 'enemy01'); //855,370
-    game.physics.arcade.enable(enemy01);
-    enemy01.body.collideWorldBounds = true;
-    enemy01.body.immovable = true;
 };
 function update() {
     if (cursor.right.isDown) {
